@@ -1,9 +1,10 @@
 # Step1 : Load all the libraries which are used 
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.datasets import imdb
-from tensorflow.keras.preprocessing import sequence
-from tensorflow.keras.models import load_model
+from keras.datasets import imdb
+from keras.preprocessing import sequence
+from keras.models import load_model
+import streamlit as st
 
 # step 2 : Load the IMDB dataset word_index 
 word_index = imdb.get_word_index()
@@ -26,10 +27,10 @@ def preprocess_text(text):
 
 
 
-import streamlit as st
+
 ## Design streamlit app
 
-st.title('IMDB Movie Review Sentiment Analysis')
+st.title('IMDB Movie Review  Sentiment Analysis')
 st.write('Enter a movie review to classify it as positive or negative')
 
 
