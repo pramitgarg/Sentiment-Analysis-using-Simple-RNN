@@ -1,5 +1,8 @@
 # Sentiment-Analysis-using-Simple-RNN
-This project shows the simple RNN used to do text classification of movie review's given by IMDB and using streamlit to display and then deploy it on Streamlit Cloud. 
+This project shows the simple RNN used to do text classification of movie review's given by IMDB and using streamlit to display and then deploy it on Streamlit Cloud.
+
+<img width="1018" height="600" alt="Screenshot 2026-01-19 at 3 08 42 PM" src="https://github.com/user-attachments/assets/d76f7cb9-f1dd-4521-8166-44eda0277174" />
+
 
 In this Project, we have download the datasets from the tensorflow and build the RNN model. Here are the steps taken to execute this project : 
 1. Creating the Gituhb repo and clone the repo on VS code on my local system.
